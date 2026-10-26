@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260"><ellipse cx="160" cy="225" rx="91" ry="11" fill="#514738" opacity=".08"/>
+<path d="M52 126 Q67 215 145 221 H181 Q255 206 270 126Z" fill="#f2e6cd" stroke="#756750" stroke-width="3"/>
+<path d="M69 145 Q91 207 149 212 H180 Q233 198 252 147 Q163 185 69 145Z" fill="#dfcfad"/>
+<ellipse cx="160" cy="122" rx="109" ry="49" fill="#efe0b7" stroke="#756750" stroke-width="3"/>
+<ellipse cx="160" cy="121" rx="96" ry="39" fill="#d8bd80"/>
+<g fill="#eee1bd" stroke="#c9ad7d" stroke-width="2"><path d="M76 121 Q109 80 147 107 L144 141 L102 144Z"/><path d="M129 101 Q169 71 203 104 L174 135 L137 139Z"/></g>
+<g fill="#a97042" stroke="#764b30" stroke-width="2"><rect x="112" y="99" width="33" height="25" rx="8" transform="rotate(-12 128 111)"/><rect x="148" y="108" width="34" height="24" rx="7" transform="rotate(8 165 120)"/><rect x="184" y="95" width="31" height="25" rx="7" transform="rotate(-20 200 107)"/></g>
+<g fill="#73954e"><ellipse cx="87" cy="118" rx="14" ry="10"/><ellipse cx="222" cy="122" rx="16" ry="12"/><ellipse cx="197" cy="139" rx="13" ry="9"/></g>
+<g stroke="#d8874d" stroke-width="5" stroke-linecap="round"><path d="M95 138 l24 6 M104 130 l20 7 M179 138 l11 -9"/></g>
+<g fill="#f7eacb"><ellipse cx="126" cy="107" rx="2" ry="1"/><ellipse cx="137" cy="116" rx="2" ry="1"/><ellipse cx="160" cy="117" rx="2" ry="1"/><ellipse cx="173" cy="123" rx="2" ry="1"/><ellipse cx="197" cy="105" rx="2" ry="1"/></g>
+<path d="M196 72 L271 23 M205 83 L281 34" stroke="#8f5c35" stroke-width="7" stroke-linecap="round"/></svg>

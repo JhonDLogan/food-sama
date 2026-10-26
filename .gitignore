@@ -1,0 +1,21 @@
+# Archivos locales del equipo
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
+# Secretos y dependencias para futuras entregas
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Configuración interna de la vista previa
+.openai/
+
+# Copia generada para vista previa
+dist/

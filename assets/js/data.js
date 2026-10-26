@@ -1,0 +1,30 @@
+/* Datos de ejemplo. No hay conexión a servidor ni persistencia. */
+window.FoodSamaData = {
+  date: '2026-10-24',
+  business: { name: 'Sama Cocina', owner: 'Jhon Diego', phone: '300 000 0000', email: 'hola@samacocina.example', address: 'Santander de Quilichao, Cauca', hours: 'Lunes a sábado · 12:00 m. a 9:00 p. m.', description: 'Comida hecha con calma, para disfrutar sin prisa.' },
+  categories: ['Todos', 'Hamburguesas', 'Pizzas', 'Especiales', 'Acompañamientos', 'Bebidas'],
+  products: [
+    { id: 1, name: 'Burger de la casa', category: 'Hamburguesas', description: 'Carne artesanal, queso cheddar, vegetales frescos y salsa Sama.', price: 18000, cost: 10500, available: true, image: 'burger.svg', color: 'peach' },
+    { id: 2, name: 'Pizza margarita', category: 'Pizzas', description: 'Masa artesanal, tomate, mozzarella y un toque de albahaca.', price: 24000, cost: 13000, available: true, image: 'pizza.svg', color: 'sage' },
+    { id: 3, name: 'Bowl teriyaki', category: 'Especiales', description: 'Arroz, pollo en salsa teriyaki, zanahoria y vegetales.', price: 22000, cost: 12000, available: true, image: 'bowl.svg', color: 'lavender' },
+    { id: 4, name: 'Papas crujientes', category: 'Acompañamientos', description: 'Papas doradas con sal de la casa y salsa para acompañar.', price: 8000, cost: 3500, available: true, image: 'fries.svg', color: 'butter' },
+    { id: 5, name: 'Limonada natural', category: 'Bebidas', description: 'Limón fresco, agua y el equilibrio justo de dulzor.', price: 6000, cost: 2000, available: true, image: 'lemonade.svg', color: 'sage' },
+    { id: 6, name: 'Jugo de frutos rojos', category: 'Bebidas', description: 'Mezcla de frutos rojos preparada al momento.', price: 7000, cost: 2500, available: false, image: 'juice.svg', color: 'rose' }
+  ],
+  orders: [
+    { id: 1048, date: '2026-10-24', time: '13:25', customer: 'Laura Martínez', phone: '300 000 0001', source: 'Web', delivery: 'Domicilio', address: 'Dirección de ejemplo 1', notes: 'Sin cebolla, por favor.', status: 'Pendiente', paid: false, items: [{productId:1,name:'Burger de la casa',quantity:2,price:18000,cost:10500},{productId:5,name:'Limonada natural',quantity:2,price:6000,cost:2000}] },
+    { id: 1047, date: '2026-10-24', time: '13:18', customer: 'Andrés López', phone: '300 000 0002', source: 'Teléfono', delivery: 'Recoger', address: '', notes: '', status: 'En preparación', paid: true, items: [{productId:2,name:'Pizza margarita',quantity:1,price:24000,cost:13000},{productId:5,name:'Limonada natural',quantity:1,price:6000,cost:2000}] },
+    { id: 1046, date: '2026-10-24', time: '13:05', customer: 'Camila Torres', phone: '300 000 0003', source: 'Chat', delivery: 'Recoger', address: '', notes: '', status: 'En preparación', paid: false, items: [{productId:3,name:'Bowl teriyaki',quantity:2,price:22000,cost:12000}] },
+    { id: 1045, date: '2026-10-24', time: '12:50', customer: 'Daniel Rojas', phone: '300 000 0004', source: 'Web', delivery: 'Domicilio', address: 'Dirección de ejemplo 2', notes: 'Salsa aparte.', status: 'Pendiente', paid: false, items: [{productId:1,name:'Burger de la casa',quantity:1,price:18000,cost:10500},{productId:4,name:'Papas crujientes',quantity:1,price:8000,cost:3500}] },
+    { id: 1044, date: '2026-10-24', time: '12:35', customer: 'Sofía Muñoz', phone: '300 000 0005', source: 'Web', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:1,name:'Burger de la casa',quantity:3,price:18000,cost:10500},{productId:5,name:'Limonada natural',quantity:3,price:6000,cost:2000}] },
+    { id: 1043, date: '2026-10-24', time: '12:20', customer: 'Mateo Pérez', phone: '300 000 0006', source: 'Teléfono', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:2,name:'Pizza margarita',quantity:2,price:24000,cost:13000},{productId:4,name:'Papas crujientes',quantity:2,price:8000,cost:3500}] },
+    { id: 1042, date: '2026-10-23', time: '18:40', customer: 'Laura Martínez', phone: '300 000 0001', source: 'Web', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:3,name:'Bowl teriyaki',quantity:3,price:22000,cost:12000}] },
+    { id: 1041, date: '2026-10-23', time: '17:20', customer: 'Andrés López', phone: '300 000 0002', source: 'Chat', delivery: 'Recoger', address: '', notes: 'Cancelación solicitada por el cliente.', status: 'Cancelado', paid: false, items: [{productId:1,name:'Burger de la casa',quantity:1,price:18000,cost:10500}] },
+    { id: 1040, date: '2026-10-22', time: '13:15', customer: 'Camila Torres', phone: '300 000 0003', source: 'Web', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:1,name:'Burger de la casa',quantity:4,price:18000,cost:10500}] },
+    { id: 1039, date: '2026-10-21', time: '15:30', customer: 'Daniel Rojas', phone: '300 000 0004', source: 'Teléfono', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:2,name:'Pizza margarita',quantity:3,price:24000,cost:13000}] },
+    { id: 1038, date: '2026-10-20', time: '16:10', customer: 'Sofía Muñoz', phone: '300 000 0005', source: 'Web', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:1,name:'Burger de la casa',quantity:5,price:18000,cost:10500}] },
+    { id: 1037, date: '2026-10-19', time: '18:10', customer: 'Mateo Pérez', phone: '300 000 0006', source: 'Web', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:3,name:'Bowl teriyaki',quantity:3,price:22000,cost:12000}] },
+    { id: 1036, date: '2026-10-18', time: '14:00', customer: 'Laura Martínez', phone: '300 000 0001', source: 'Chat', delivery: 'Recoger', address: '', notes: '', status: 'Entregado', paid: true, items: [{productId:2,name:'Pizza margarita',quantity:2,price:24000,cost:13000}] }
+  ],
+  expenses: [ { id: 1, date: '2026-10-24', name: 'Transporte de insumos', amount: 12000 }, { id: 2, date: '2026-10-22', name: 'Servicios del período', amount: 18000 } ]
+};

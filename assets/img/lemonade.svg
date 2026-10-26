@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260"><ellipse cx="160" cy="226" rx="69" ry="9" fill="#5d5d40" opacity=".08"/>
+<path d="M109 66 H215 L202 213 Q159 228 123 213Z" fill="#f8f1da" stroke="#89917c" stroke-width="3"/>
+<path d="M116 101 H208 L199 209 Q159 222 128 209Z" fill="#d6d58b" opacity=".85"/>
+<ellipse cx="162" cy="100" rx="45" ry="10" fill="#d6d58b"/>
+<g fill="#fff" opacity=".45"><rect x="128" y="112" width="24" height="24" rx="5" transform="rotate(15 140 124)"/><rect x="165" y="100" width="26" height="26" rx="5" transform="rotate(-15 178 113)"/><rect x="152" y="146" width="24" height="25" rx="5" transform="rotate(10 164 159)"/></g>
+<path d="M178 151 L185 40 L217 23" fill="none" stroke="#efc47f" stroke-width="9" stroke-linecap="round"/><path d="M178 151 L185 40 L217 23" fill="none" stroke="#8e7753" stroke-width="2"/>
+<path d="M134 88 Q126 62 111 67 Q106 83 134 88Z" fill="#69905b"/><circle cx="211" cy="87" r="28" fill="#d3ce69" stroke="#839558" stroke-width="3"/><circle cx="211" cy="87" r="21" fill="#f2e7a9"/><path d="M211 66 V107 M190 87 H232 M196 72 L226 102 M197 101 L226 72" stroke="#dbd292" stroke-width="2"/></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260"><ellipse cx="160" cy="216" rx="113" ry="15" fill="#53623c" opacity=".08"/>
+<ellipse cx="160" cy="143" rx="113" ry="77" fill="#dfaa60" stroke="#8c6737" stroke-width="3"/>
+<ellipse cx="160" cy="140" rx="100" ry="64" fill="#bf5a37"/>
+<ellipse cx="160" cy="137" rx="93" ry="57" fill="#efcc72"/>
+<g fill="#f7e6b2"><ellipse cx="118" cy="116" rx="22" ry="14"/><ellipse cx="195" cy="119" rx="20" ry="16"/><ellipse cx="147" cy="154" rx="23" ry="15"/><ellipse cx="218" cy="155" rx="16" ry="12"/><ellipse cx="91" cy="148" rx="15" ry="13"/></g>
+<g fill="#d7764c" stroke="#b85c39" stroke-width="2"><ellipse cx="138" cy="103" rx="13" ry="8"/><ellipse cx="179" cy="153" rx="13" ry="9"/><ellipse cx="99" cy="133" rx="12" ry="8"/><ellipse cx="217" cy="132" rx="12" ry="8"/></g>
+<g fill="#54794c" stroke="#385b36" stroke-width="1.5"><path d="M151 120 Q138 94 128 105 Q123 121 151 120Z"/><path d="M151 120 Q176 98 179 113 Q175 126 151 120Z"/><path d="M114 169 Q91 161 99 153 Q114 149 114 169Z"/><path d="M205 176 Q189 150 181 164 Q180 176 205 176Z"/></g>
+<path d="M159 140 L236 185 M159 140 L68 177 M159 140 L168 78" stroke="#ddab5a" stroke-width="3"/></svg>

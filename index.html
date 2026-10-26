@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food-Sama. Interfaz de gestión para negocios de comida. Primera entrega del proyecto.">
+  <meta name="theme-color" content="#252d28">
+  <title>Food-Sama · Mi negocio</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/logic.js" defer></script><script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="admin">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="sidebar-shade" id="sidebar-shade"></div>
+  <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+    <a class="brand" href="index.html" aria-label="Food-Sama, inicio"><span class="brand-mark" aria-hidden="true">麺</span><span>food<span class="brand-serif">sama</span><small>HECHO PARA TU NEGOCIO</small></span></a>
+    <div class="workspace"><span class="workspace-avatar">SC</span><div><strong data-business-name>Sama Cocina</strong><span>Mi restaurante</span></div><span class="online-dot" title="Negocio de demostración"></span></div>
+    <nav class="nav"><p class="nav-label">PRINCIPAL</p>
+      <a href="#resumen" data-view="resumen"><span data-icon="grid"></span>Resumen</a>
+      <a href="#pedidos" data-view="pedidos"><span data-icon="bag"></span>Pedidos<span class="nav-count" id="pending-count">4</span></a>
+      <a href="#menu" data-view="menu"><span data-icon="utensils"></span>Mi menú</a>
+      <a href="#clientes" data-view="clientes"><span data-icon="users"></span>Clientes</a>
+      <p class="nav-label">FINANZAS</p>
+      <a href="#comprobantes" data-view="comprobantes"><span data-icon="receipt"></span>Comprobantes</a>
+      <a href="#reportes" data-view="reportes"><span data-icon="chart"></span>Resultados</a>
+      <p class="nav-label">CONFIGURACIÓN</p>
+      <a href="#negocio" data-view="negocio"><span data-icon="store"></span>Mi negocio</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="demo-note"><span class="demo-label">PRIMERA ENTREGA</span><strong>Una idea que toma forma.</strong><p>Explora el recorrido con datos de ejemplo.</p><button class="text-button" id="about-demo">Acerca de esta demo <span aria-hidden="true">↗</span></button></div><a class="sidebar-exit" href="acceso.html"><span data-icon="logout"></span>Vista de acceso</a><span class="sidebar-version">Food-Sama · Interfaz v1.0</span></div>
+  </aside>
+  <div class="app-layout">
+    <header class="topbar">
+      <button class="icon-button mobile-toggle" id="mobile-toggle" aria-label="Abrir menú" aria-controls="sidebar" aria-expanded="false"><span data-icon="menu"></span></button>
+      <div class="breadcrumb">Mi espacio <span>/</span> <strong id="breadcrumb-current">Resumen</strong></div>
+      <div class="topbar-right"><div class="global-search"><span data-icon="search"></span><label class="sr-only" for="global-search">Buscar pedidos o productos</label><input id="global-search" type="search" placeholder="Buscar en mi negocio…" autocomplete="off"><div class="search-results" id="search-results" hidden></div></div><button class="icon-button notification-button" id="notifications" aria-label="Ver pedidos pendientes"><span data-icon="bell"></span><i></i></button><button class="profile-button" id="profile-button" aria-label="Ver perfil del negocio"><span class="avatar">JD</span><span class="profile-name">Jhon Diego<small>Propietario · Demo</small></span><span data-icon="chevron-down"></span></button></div>
+    </header>
+    <main id="main" class="main-content" tabindex="-1"></main>
+    <footer class="app-footer"><span>Food-Sama <span aria-hidden="true">·</span> Menos cuentas sueltas, más tiempo para cocinar.</span><span>Datos de ejemplo <i class="tiny-dot"></i></span></footer>
+  </div>
+  <dialog id="app-dialog" class="app-dialog" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+</body>
+</html>
